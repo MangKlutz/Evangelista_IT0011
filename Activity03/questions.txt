@@ -1,0 +1,25 @@
+QUESTION AND ANSWER:
+
+1. How does the format() function help in combining variables with text in Python? Can you provide a simple example?
+The format() function helps insert values into a string in an organized way using {} as placeholders.
+
+2. Explain the basic difference between opening a file in 'read' mode ('r') and 'write' mode ('w') in Python. When would you use each
+'r' (read mode) is used to open and read an existing file. If the file doesn't exist, an error occurs.
+
+'w' (write mode) is used to create or overwrite a file. If the file exists, it deletes the old content.
+
+3. Describe what string slicing is in Python. Provide a basic example of extracting a substring from a larger string.
+String slicing lets you take part of a string using index numbers.
+
+4. When saving information to a file in Python, what is the purpose of using the 'a' mode instead of the 'w' mode? Provide a straightforward example.
+'a' (append mode) adds new content without deleting the old data.
+
+'w' (write mode) replaces the old content with new data.
+
+5. Write a simple Python code snippet to open and read a file named "data.txt." How would you handle the case where the file might not exist?
+____________________________________________________________________________
+try:
+    with open("data.txt", "r") as file:
+        print(file.read())
+except FileNotFoundError:
+    print("Error: 'data.txt' not found.")

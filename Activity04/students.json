@@ -1,0 +1,29 @@
+{
+    "202311719": {
+        "id": "202311719",
+        "name": [
+            "Brian Eric",
+            "Evangelista"
+        ],
+        "class_standing": 0.5,
+        "major_exam": 0.3
+    },
+    "202354321": {
+        "id": "202354321",
+        "name": [
+            "Erik Bryan",
+            "Marquez"
+        ],
+        "class_standing": 0.6,
+        "major_exam": 0.4
+    },
+    "202312345": {
+        "id": "202312345",
+        "name": [
+            "Bryan Erik",
+            "Evangelista"
+        ],
+        "class_standing": 0.3,
+        "major_exam": 0.35
+    }
+}
